@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+:root{
+    --primary-color:#F472B6;
+    --pink:#FDF2F8;
+    --black:#000000;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: var(--primary-color);
+    margin: 0rem;
+    padding: 0rem;
+    text-align: center;
+}
+
+.hero-img{
+    max-width: 100px;
+    display: block;
+    margin:auto
+}
+
+.nav-brand{
+
+    font-weight: bold;
+    font-size: 2rem;
+     font-family: 'Satisfy', cursive;
+    padding: 2rem;
+}
+
+textarea {
+    width: 90%;
+    height: 10vh;
+    display: block;
+    margin:1rem;
+    padding: 1rem;
+    text-align:center;
+}
+#btn-translate{
+    color:var(--pink) ;
+    background-color: var(--black);
+    width: 30%;
+    height: 7vh;
+}
+
+#output-head{
+    font-family:'Satisfy', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 90%;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    
+}
